@@ -18,7 +18,7 @@ import Link from "next/link";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 import { Header } from "../../components/Header";
 import { Pagination } from "../../components/Pagination";
-import { SideBar } from "../../components/SideBar";
+import { SideBar } from "../../components/Sidebar";
 
 export default function UserList() {
     const isWideVersion = useBreakpointValue({
