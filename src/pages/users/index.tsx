@@ -33,7 +33,7 @@ export default function UserList() {
             <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
                 <SideBar />
 
-                <Box flex="1" borderRadius={8} bg="gray.300" p="8">
+                <Box flex="1" borderRadius={8} bg="white" p="8" boxShadow={"lg"}>
                     <Flex mb="8" justify="space-between" align="center">
                         <Heading size="lg" fontWeight="normal">
                             Users
